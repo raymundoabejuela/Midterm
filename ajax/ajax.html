@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<div id="demo">	
+	<button type="button" onclick="loadDoc()">AJAX and JSON</button>
+	</div>
+</body>
+</html>
+
+
+<script type="text/javascript">
+
+function loadDoc(){
+var http = new XMLHttpRequest();
+xttp.onreadystatechange = function(){
+	if(this.readystate==4 && this status == 200 ){
+		document.getElementById('demo').innerHTML = this.responseText{
+	}
+	}
+};
+
+xttp("GET","https://jsonplaceholder.typicode.com/todos",true);
+xttp.send();
+}
+
+</script>
