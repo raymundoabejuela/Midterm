@@ -1,0 +1,19 @@
+body{
+	background-color: blue;
+}
+button{
+	border-radius :30px;
+	height:60px;
+	width:60px;
+	background-color: yellow;
+
+}
+input{
+	background-color:yellow;
+	border-radius :30px;
+	height:60px;
+	width:260px;
+}
+div{
+	margin-top:150px;
+}
